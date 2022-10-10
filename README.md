@@ -33,7 +33,7 @@ def compress(image):
         return image
 ```
 
-###model.py
+### model.py
 ```
 class ModelName(model.Model):
     ...
