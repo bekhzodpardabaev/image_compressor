@@ -32,3 +32,12 @@ def compress(image):
     else:
         return image
 ```
+
+###model.py
+```
+class ModelName(model.Model):
+    ...
+
+    def save(self, *args, **kwargs):
+        self.image = compress(self.image)
+        return super(ModelName, self).save(*args, **kwargs)```
