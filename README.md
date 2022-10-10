@@ -42,4 +42,5 @@ class ModelName(model.Model):
 
     def save(self, *args, **kwargs):
         self.image = compress(self.image)
-        return super(ModelName, self).save(*args, **kwargs)```
+        return super(ModelName, self).save(*args, **kwargs)
+```
