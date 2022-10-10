@@ -1,4 +1,9 @@
 # image_compressor
+
+## Install
+
+```pip install Pillow```
+
 ```
 from io import BytesIO
 from PIL import Image
